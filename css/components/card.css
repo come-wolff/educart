@@ -1,0 +1,38 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  background-color: #ef8db5;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  flex-basis: 250px;
+  flex-grow: 1;
+  margin: 10px;
+  border-radius: 6px;
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+}
+.card img {
+  width: 180px;
+  border-radius: 6px;
+  margin: 0px 20px;
+}
+.card h3 {
+  flex-grow: 1;
+  padding-left: 20px;
+}
+.card:hover {
+    transform: scale(1.05); /* Agrandit la carte de 5% lors du survol */
+}
+#logo{
+    width: 140px;  /* Adaptez cette taille selon vos besoins */
+    height: 140px; /* Rendez la hauteur égale à la largeur pour un cercle parfait */
+    border-radius: 50%; /* Cela rend l'image ronde */
+    display: block; /* S'assure que l'image est traitée comme un bloc pour les marges */
+    margin: 0 auto 20px; /* Centre l'image et ajoute un espace en dessous */
+    padding: 10px;
+}

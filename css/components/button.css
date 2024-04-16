@@ -1,0 +1,14 @@
+.btn-black{
+  color: #ef8db5;
+  font-weight: 600;
+  background-color: white;
+  padding: 15px 20px;
+  border-radius: 5px;
+  margin: 20px 0px;
+  transition: transform 0.3s ease;
+}
+.btn-black:hover{
+  color: white;
+  background-color:#ef8db5 ;
+  transform: scale3d(1.1, 1.1, 1.1);
+}
